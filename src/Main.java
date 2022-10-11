@@ -8,9 +8,15 @@ public class Main {
 
     }
     public static void print(int printStart, int printEnd) {
-        while (printStart <= printEnd){
-            System.out.print("*");
-            printStart++;
+        int start = printStart;
+        int end = printEnd;
+
+        while (start <= end) {
+            System.out.println(" ");
+            for (i = printStart; i <= printEnd; i++) {
+                System.out.print("*");
+            }
+            start++;
         }
 
     }
