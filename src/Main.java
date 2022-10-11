@@ -13,7 +13,7 @@ public class Main {
 
         while (start <= end) {
             System.out.println(" ");
-            for (i = printStart; i <= printEnd; i++) {
+            for (int i = printStart; i <= printEnd; i++) {
                 System.out.print("*");
             }
             start++;
