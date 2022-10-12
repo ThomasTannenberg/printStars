@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d0f87e3-f1bb-45c8-bc38-2428fee07c37" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665589809166</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="reverse triangle empty space corrected, again!">
+      <created>1665590098448</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665590098448</updated>
+    </task>
+    <task id="LOCAL-00011" summary="corrected triangle">
+      <created>1665590210497</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665590210497</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +138,7 @@
     <MESSAGE value="implemented reverse triangle printing" />
     <MESSAGE value="reverse triangle empty space corrected" />
     <MESSAGE value="reverse triangle empty space corrected, again!" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverse triangle empty space corrected, again!" />
+    <MESSAGE value="corrected triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected triangle" />
   </component>
 </project>

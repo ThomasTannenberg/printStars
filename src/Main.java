@@ -13,6 +13,7 @@ public class Main {
         seperate();
         rightTriangle(hight);
         seperate();
+        christmasTree(hight);
     }
     public static void seperate() {
         System.out.println("-------");
@@ -24,7 +25,7 @@ public class Main {
         }
     }
     public static void printSpace(int hight) {
-        for (int i = hight; i > 0 ; i--) {
+        for (int i = hight; i > 0; i--) {
             System.out.print(" ");
         }
     }
@@ -60,8 +61,22 @@ public class Main {
         }
     }
     public static void christmasTree(int hight) {
-        int counter = hight;
-        int counter2 = 1;
+        int counterSpaces = hight;
+        int counterStars = 1;
+        int counterTree = 0;
+
+        while (counterTree <= hight) {
+            printSpace(counterSpaces);
+            printStars(counterStars);
+            counterStars = counterStars + 2;
+            counterSpaces--;
+            counterTree++;
+        }
+        int stumb = hight - 1;
+        for (int i = 0; i <=1 ; i++) {
+            printSpace(stumb);
+            printStars(3);
+        }
 
     }
     public static int[] scan() {
