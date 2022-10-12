@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d0f87e3-f1bb-45c8-bc38-2428fee07c37" name="Changes" comment="Changed print method to print squares out of *&#10;fixed stupid bug">
+    <list default="true" id="5d0f87e3-f1bb-45c8-bc38-2428fee07c37" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665469278379</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changed print method to &#10;- print line of stars (width)&#10;- print square of stars (hight and width)">
+      <created>1665583074786</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665583074786</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +99,7 @@
     <MESSAGE value="Implemented User simple star print method" />
     <MESSAGE value="Changed print method to print squares out of *" />
     <MESSAGE value="Changed print method to print squares out of *&#10;fixed stupid bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed print method to print squares out of *&#10;fixed stupid bug" />
+    <MESSAGE value="Changed print method to &#10;- print line of stars (width)&#10;- print square of stars (hight and width)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed print method to &#10;- print line of stars (width)&#10;- print square of stars (hight and width)" />
   </component>
 </project>
