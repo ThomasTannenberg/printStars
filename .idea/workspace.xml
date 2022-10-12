@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5d0f87e3-f1bb-45c8-bc38-2428fee07c37" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665584367962</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="reverse triangle empty space corrected">
+      <created>1665588361439</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665588361439</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +114,7 @@
     <MESSAGE value="Changed print method to print squares out of *&#10;fixed stupid bug" />
     <MESSAGE value="Changed print method to &#10;- print line of stars (width)&#10;- print square of stars (hight and width)" />
     <MESSAGE value="implemented reverse triangle printing" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented reverse triangle printing" />
+    <MESSAGE value="reverse triangle empty space corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="reverse triangle empty space corrected" />
   </component>
 </project>

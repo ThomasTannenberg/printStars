@@ -21,7 +21,7 @@ public class Main {
         }
     }
     public static void printSpace(int hight) {
-        for (int i = hight - 1; i >= 0 ; i--) {
+        for (int i = hight; i > 0 ; i--) {
             System.out.print(" ");
         }
 
@@ -49,7 +49,7 @@ public class Main {
     }
     public static void rightTriangle(int hight) {
         int counter = 0;
-        int counter2 = hight;
+        int counter2 = hight - 1;
 
         while (counter <= hight) {
             printSpace(counter2);
