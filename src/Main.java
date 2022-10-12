@@ -11,6 +11,8 @@ public class Main {
         triangle(hight);
         System.out.println("-------");
         rightTriangle(hight);
+        System.out.println("-------");
+
     }
     public static void maxHight(int hight) {
         for (int z = 1; z <= hight; z++) {
@@ -19,16 +21,17 @@ public class Main {
         }
     }
     public static void printSpace(int hight) {
-        for (int i = 0; i < hight ; i++) {
+        for (int i = hight - 1; i >= 0 ; i--) {
             System.out.print(" ");
         }
+
 
     }
     public static void printStars(int width) {
         for (int j = 0; j < width; j++) {
             System.out.print("*");
         }
-        System.out.println("");
+        System.out.println(" ");
     }
     public static void rectancle(int hight, int width) {
         int counter = 0;
@@ -38,21 +41,28 @@ public class Main {
         }
     }
     public static void triangle(int hight) {
-        int counter = 1;
-        while (counter <= hight) {
+        int counter = 0;
+        while (counter < hight) {
             printStars(counter);
             counter++;
         }
     }
     public static void rightTriangle(int hight) {
-        int counter = 1;
+        int counter = 0;
         int counter2 = hight;
+
         while (counter <= hight) {
             printSpace(counter2);
             printStars(counter);
             counter++;
             counter2--;
+
         }
+    }
+    public static void christmasTree(int hight) {
+        int counter = hight;
+        int counter2 = 1;
+
     }
     public static int[] scan() {
         Scanner scanner = new Scanner(System.in);
