@@ -27,8 +27,6 @@ public class Main {
         for (int i = hight; i > 0 ; i--) {
             System.out.print(" ");
         }
-
-
     }
     public static void printStars(int width) {
         for (int j = 0; j < width; j++) {
@@ -44,8 +42,8 @@ public class Main {
         }
     }
     public static void triangle(int hight) {
-        int counter = 0;
-        while (counter < hight) {
+        int counter = 1;
+        while (counter <= hight) {
             printStars(counter);
             counter++;
         }
@@ -59,7 +57,6 @@ public class Main {
             printStars(counter);
             counter++;
             counter2--;
-
         }
     }
     public static void christmasTree(int hight) {
