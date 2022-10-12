@@ -4,15 +4,18 @@ public class Main {
         int[] userInput = scan();
         int hight = (userInput[0]);
         int width = (userInput[1]);
-        printStars(width);
-        System.out.println("-------");
-        rectancle(hight, width);
-        System.out.println("-------");
-        triangle(hight);
-        System.out.println("-------");
-        rightTriangle(hight);
-        System.out.println("-------");
 
+        printStars(width);
+        seperate();
+        rectancle(hight, width);
+        seperate();
+        triangle(hight);
+        seperate();
+        rightTriangle(hight);
+        seperate();
+    }
+    public static void seperate() {
+        System.out.println("-------");
     }
     public static void maxHight(int hight) {
         for (int z = 1; z <= hight; z++) {
@@ -49,7 +52,7 @@ public class Main {
     }
     public static void rightTriangle(int hight) {
         int counter = 0;
-        int counter2 = hight - 1;
+        int counter2 = hight;
 
         while (counter <= hight) {
             printSpace(counter2);
